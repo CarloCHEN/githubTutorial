@@ -5,7 +5,7 @@ def Myfunction(my_matrix, my_matrix2):
 
 my_matrix = np.identity(4)
 
-my_matrix2 = np.array(range(100))
+my_matrix2 = np.identity(4)
 
 
 print(Myfunction(my_matrix, my_matrix2))
