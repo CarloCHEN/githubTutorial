@@ -1,10 +1,7 @@
 import numpy as np
+import pandas as pd
 my_matrix = np.identity(4)
-print(my_matrix)
-my_matrix2 = np.array(range(100))
-print(my_matrix2)
-def helloworld():
-  print('Hello World')
 
-if '__name__' == __main__:
-  helloworld()
+my_matrix2 = np.random.random(size=(5,4))
+
+print(my_matrix.dot(my_matrix2))
